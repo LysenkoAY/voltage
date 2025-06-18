@@ -2,14 +2,14 @@ library;
 
 import 'package:flutter/material.dart';
 
-class VoltMainPage extends StatefulWidget {
-  const VoltMainPage({super.key});
+class VoltageHomePage extends StatefulWidget {
+  const VoltageHomePage({super.key});
 
   @override
-  State<VoltMainPage> createState() => _VoltMainPageState();
+  State<VoltageHomePage> createState() => _VoltageHomePageState();
 }
 
-class _VoltMainPageState extends State<VoltMainPage> {
+class _VoltageHomePageState extends State<VoltageHomePage> {
   final ScrollController _scrollController = ScrollController();
   final List<GlobalKey> _headerKeys = List.generate(3, (_) => GlobalKey());
   final List<double> _sectionPositions = [];
